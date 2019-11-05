@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KentavrCLub</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="head-menu">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                    <h1><a href="#" title="">KCK Кентавр</a></h1>
+                </div>
+                <div>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#" title="главная">Главная</a></li>
+                            <li><a href="#" title="о нас">Мы и наши лошади</a></li>
+                            <li><a href="#" title="услуги">Услуги</a></li>
+                            <li><a href="#" title="контакты">Контакты</a></li>
+                            <li><a href="#" title="акции" class="sale">Акции</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="#" title=""><img class="social-img" src="img/vk.png" alt="vk"></a></li>
+                        <li><a href="#" title=""><img class="social-img" src="img/instagram.png" alt="inst"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="video-header">
+                <div class="fullscreen-bg">
+                    <video loop muted autoplay id="video" class="fullscreen-bg-video" poster="img/horse-bg.jpg">
+                        <source src="img/video1.mov" type="video/mp4">
+                        <source src="img/video2.mov" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="header-panel">
+                <ul>
+                    <li><span>350</span><br>занятий<br>в месяц</li>
+                    <li><span>120</span><br>незабываемых<br>прогулок</li>
+                    <li><span>15</span><br>лошадей<br>в клубе</li>
+                    <li><span>75</span><br>килограм моркови<br>съедается в день</li>
+                    <li><span>&#8734;</span><br>количество улыбок<br>наших гостей</li>
+                </ul>
+            </div>
+        </header>
+        <main class="content">
+        	<hr>
+        </main>
+        <footer class="footer">
+        </footer>
+    </div>
+<script src="FitVids/jquery.fitvids.js"></script>
+<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $("#video").fitVids();
+  });
+</body>
+
+</html>
