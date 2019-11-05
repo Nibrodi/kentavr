@@ -104,7 +104,6 @@ position: absolute;
 }
 .fullscreen-bg-video {
 	max-width: 100%;
-	height: auto;
     overflow: hidden;
     top: 0;
     left: 0;
