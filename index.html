@@ -12,27 +12,28 @@
 
 <body>
     <div class="container">
-        <header class="header">
+    	<a href="#" class="button"/>^</a>
+        <header id="top" class="header">
             <div class="head-menu">
                 <div class="logo">
                     <img src="img/logo.svg" alt="logo">
-                    <h1><a href="#" title="">KCK Кентавр</a></h1>
+                    <h1><a href="#top" title="">KCK Кентавр</a></h1>
                 </div>
                 <div>
                     <nav class="menu">
                         <ul>
-                            <li><a href="#" title="главная">Главная</a></li>
-                            <li><a href="#" title="о нас">Мы и наши лошади</a></li>
-                            <li><a href="#" title="услуги">Услуги</a></li>
-                            <li><a href="#" title="контакты">Контакты</a></li>
+                            <li><a href="#top" title="главная">Главная</a></li>
+                            <li><a href="#aboute" title="о нас">Мы и наши лошади</a></li>
+                            <li><a href="#servic" title="услуги">Услуги</a></li>
+                            <li><a href="#contac" title="контакты">Контакты</a></li>
                             <li><a href="#" title="акции" class="sale">Акции</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="social">
                     <ul>
-                        <li><a href="#" title=""><img class="social-img" src="img/vk.png" alt="vk"></a></li>
-                        <li><a href="#" title=""><img class="social-img" src="img/instagram.png" alt="inst"></a></li>
+                        <li><a href="https://vk.com/koniklubkentavr" title="vk" target="_blank"><img class="social-img" src="img/vk.png" alt="vk"></a></li>
+                        <li><a href="https://www.instagram.com/konklubkentavr/?igshid=1afwlnxep5hvd" title="inst" target="_blank"><img class="social-img" src="img/instagram.png" alt="inst"></a></li>
                     </ul>
                 </div>
             </div>
@@ -55,17 +56,248 @@
             </div>
         </header>
         <main class="content">
-        	<hr>
+            <section id="aboute" class="about">
+                <h2>Мы и наши лошади</h2>
+                <div class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sapiente, reprehenderit. Ipsum officiis velit totam adipisci unde, pariatur deserunt libero iusto a possimus nostrum, maxime non fugit eos voluptates? At incidunt consectetur libero veritatis aliquam impedit deleniti quasi nobis asperiores! Ipsam, veritatis iste. Molestiae delectus alias voluptates, optio vitae similique commodi, iusto fugit. Ipsam eius id quam incidunt voluptatum iusto laborum nulla praesentium, repellat, assumenda veritatis. Distinctio quod aperiam, dolor accusamus, voluptatem debitis officiis optio et doloribus est excepturi illum labore nulla a facilis ad. Doloremque optio quia laborum nulla culpa sed eligendi, enim. Blanditiis culpa aperiam, iure magnam minus illo cupiditate possimus nostrum, nihil veniam quos libero distinctio aspernatur quia numquam, corporis nesciunt eaque tenetur maiores facilis. Provident minus, et minima recusandae voluptatem, ratione nostrum saepe tempora? Sequi sapiente recusandae consequatur quo. Ullam perspiciatis odit expedita atque consequuntur at consequatur, voluptatem temporibus nisi officia voluptas quos. Necessitatibus fugiat, recusandae maxime reprehenderit, nobis quod fugit illum dolor voluptas dolorem esse, obcaecati molestias consequatur suscipit omnis reiciendis modi incidunt qui error commodi accusantium dignissimos doloremque pariatur voluptates veritatis. Rerum, veniam. Quo nulla, eligendi dignissimos necessitatibus vel ullam illo quam asperiores quia minima esse in nihil autem facere tempora veniam! Blanditiis, quisquam.</div>
+                <div class="about-image">
+                    <ul>
+                        <li><img src="img/horse1.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse4.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse3.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse12.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse5.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse6.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse14.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse8.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse9.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse13.jpg" alt="horse"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="servic" class="services">
+                <h2>Услуги</h2>
+                <div class="tabs">
+                    <input type="radio" id="tab1" name="tab-control" checked>
+                    <input type="radio" id="tab2" name="tab-control">
+                    <input type="radio" id="tab3" name="tab-control">
+                    <ul>
+                        <li title="Обучение"><label for="tab1" role="button">
+                                <br><span>Обучение и иппотерапия</span></label></li>
+                        <li title="Прогулки"><label for="tab2" role="button">
+                                <br><span>Прогулки и праздники</span></label></li>
+                        <li title="Аренда"><label for="tab3" role="button">
+                                <br><span>Аренда и постой лошадей</span></label></li>
+                    </ul>
+                    <div class="slider">
+                        <div class="indicator"></div>
+                    </div>
+                    <div class="content">
+                        <section>
+                            <h2>Обучение и иппотерапия</h2>
+                            <table class="table-slider table-1">
+                                <tbody>
+                                    <tr>
+                                        <th></th>
+                                        <th>Будние дни</th>
+                                        <th>Выходные дни</th>
+                                        <th>Льготные<br>(будние дни)</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Разовое индивидуальное занятие</td>
+                                        <td class="price">1500 &#8381</td>
+                                        <td class="price">2000 &#8381</td>
+                                        <td class="price">1000 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Разовое групповое занятие<br>(40 минут)</td>
+                                        <td class="price">1000 &#8381</td>
+                                        <td class="price">1200 &#8381</td>
+                                        <td class="price">900 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Абонемент на 4 занятия</td>
+                                        <td class="price">4000 &#8381</td>
+                                        <td class="price">5000 &#8381</td>
+                                        <td class="price">3000 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Абонемент на 8 занятий</td>
+                                        <td class="price">7500 &#8381</td>
+                                        <td class="price">9500 &#8381</td>
+                                        <td class="price">6000 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Абонемент на 12 занятий</td>
+                                        <td class="price">9500 &#8381</td>
+                                        <td class="price"> - </td>
+                                        <td class="price">7500 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Иппотерапия</td>
+                                        <td class="price">1000 &#8381</td>
+                                        <td class="price">1000 &#8381</td>
+                                        <td> - </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                        <section>
+                            <h2>Прогулки и праздники</h2>
+                            <table class="table-slider table-2">
+                                <tbody>
+                                    <tr>
+                                        <th></th>
+                                        <th>Будние дни</th>
+                                        <th>Выходные дни</th>
+                                        <th>Льготные<br>(будние дни)</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Круговая прогулка вокруг конюшни</td>
+                                        <td class="price">300 &#8381</td>
+                                        <td class="price">300 &#8381</td>
+                                        <td class="price">250 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Прогулка продолжительностью 30 минут</td>
+                                        <td class="price">700 &#8381</td>
+                                        <td class="price">800 &#8381</td>
+                                        <td class="price">500 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Прогулка продолжительностью 1 час</td>
+                                        <td class="price">2000 &#8381</td>
+                                        <td class="price">2500 &#8381</td>
+                                        <td class="price">1500 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Прогулка продолжительностью 2 часа</td>
+                                        <td class="price">1800 &#8381</td>
+                                        <td class="price">2000 &#8381</td>
+                                        <td class="price">1500 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Обзорная прогулка на санях, экипаже продолжительностью 30 минут</td>
+                                        <td class="price">1500 &#8381</td>
+                                        <td class="price">2000 &#8381</td>
+                                        <td class="price">1200 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Прогулка на санях, экипаже продолжительностью 1 час</td>
+                                        <td class="price">2000 &#8381</td>
+                                        <td class="price">2500 &#8381</td>
+                                        <td class="price">1500 &#8381</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Конный поход на двоих продолжительностью 4 часа (продукты для пикника за доп. плату)</td>
+                                        <td class="price">4000 &#8381</td>
+                                        <td class="price">5000 &#8381</td>
+                                        <td class="price"> - </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Предоставление экипажа или саней на праздник</td>
+                                        <td class="price">4000 &#8381</td>
+                                        <td class="price">4000 &#8381</td>
+                                        <td class="price"> - </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Предоставление лошади или пони на праздник</td>
+                                        <td class="price">2500 &#8381</td>
+                                        <td class="price">2500 &#8381</td>
+                                        <td class="price"> - </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Предоставление других животных на праздник (уточняйте у администратора)</td>
+                                        <td class="price">2000 &#8381</td>
+                                        <td class="price">2000 &#8381</td>
+                                        <td class="price"> - </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                        <section>
+                            <h2>Аренда и постой</h2>
+                            <table class="table-slider table-3">
+                                <tbody>
+                                    <tr>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Постой лошади</td>
+                                        <td class="price">15000 &#8381 в месяц</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Аренда лошади</td>
+                                        <td class="price">15000 &#8381 в месяц</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Частичная аренда лошади</td>
+                                        <td class="price">8000 &#8381 в месяц</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Перевозка лошадей в коневозе</td>
+                                        <td class="price">уточняйте у администратора</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Услуги берейтора</td>
+                                        <td class="price">2500 &#8381 занятие</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="th-t">Услуги коваля по расчистке</td>
+                                        <td class="price">1500 &#8381</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <section id="contac" class="contact">
+            	<h2>Контакты</h2>
+            	<h4>Мы работаем для вас каждый день с 10:00 до 21:00</h4>
+            	<address>
+            		<div class="addr">
+            		<ul>
+            			<li>Адрес:</li>
+            			<li>Московская обл., квартал Ивакино, Химки, Березовая Роща Нот, территория парк-отеля "Олимпиец"</li>
+            		</ul>
+            		</div>
+            	</address>
+            	<div class="phone">
+            		<ul>
+            			<li>Телефон для записи на занятия/прогулки:</li>
+            			<li><a href="tel:+79263774464">+7(926)-377-44-64</a></li>
+            			<li>Телефон директора (Татьяна):</li>
+            			<li><a href="tel:+79067524399">+7(906)-752-43-99</a></li>
+            			
+            		</ul>
+            	</div>
+            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.780999180197!2d37.47117839365185!3d55.95661801636448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53bfc7f9bad99%3A0x3ee74de492586207!2z0JrQvtC90L3Ri9C5INC60LvRg9CxICLQmtC10L3RgtCw0LLRgCI!5e1!3m2!1sru!2sru!4v1573047145984!5m2!1sru!2sru" width="1280" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </section>
+            <div class="about-image">
+                    <ul>
+                        <li><img src="img/horse2.jpg" alt="horse"><a href="#"></a></li>
+                       
+                        <li><img src="img/horse11.jpg" alt="horse"><a href="#"></a></li>
+                      
+                        <li><img src="img/horse7.jpg" alt="horse"><a href="#"></a></li>
+                        <li><img src="img/horse15.jpg" alt="horse"><a href="#"></a></li>
+                     
+                        <li><img src="img/horse10.jpg" alt="horse"><a href="#"></a></li>
+                    </ul>
+                </div>
         </main>
         <footer class="footer">
+        	<small>Copyright &#169; <time datetime="2019">2019</time> С любовью к верстке, <a href="#" title="">nibrodi</a></small>
         </footer>
     </div>
-<script src="FitVids/jquery.fitvids.js"></script>
-<script>
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $("#video").fitVids();
-  });
-</body>
+    <script src="FitVids/jquery.fitvids.js"></script>
+    <script>
+    $(document).ready(function() {
+        // Target your .container, .wrapper, .post, etc.
+        $("#video").fitVids();
+    }); <
+    /body>
 
-</html>
+    <
+    /html>
