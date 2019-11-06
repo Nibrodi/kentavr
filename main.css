@@ -189,8 +189,8 @@ body {
 .about-image ul li img {
     width: 240px;
     height: 240px;
-    opacity: 1;
-    filter: grayscale(0.3);
+    opacity: 0.8;
+    filter: grayscale(.9);
     padding-bottom: 7%;
 }
 
@@ -198,6 +198,7 @@ body {
     opacity: 1;
     filter: grayscale(0.1)
 }
+
 
 .services h2 {
     border-top: 1px solid #191919;
@@ -369,158 +370,6 @@ body {
     fill: #191919;
 }
 
-@media (max-width: 600px) {
-    .tabs input[name="tab-control"]:nth-of-type(1):checked~ul>li:nth-child(1)>label {
-        background: rgba(0, 0, 0, 0.08);
-    }
-}
-
-.tabs input[name="tab-control"]:nth-of-type(1):checked~.slider {
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
-}
-
-.tabs input[name="tab-control"]:nth-of-type(1):checked~.content>section:nth-child(1) {
-    display: block;
-}
-
-.tabs input[name="tab-control"]:nth-of-type(2):checked~ul>li:nth-child(2)>label {
-    cursor: default;
-    color: #191919;
-}
-
-.tabs input[name="tab-control"]:nth-of-type(2):checked~ul>li:nth-child(2)>label svg {
-    fill: #191919;
-}
-
-@media (max-width: 600px) {
-    .tabs input[name="tab-control"]:nth-of-type(2):checked~ul>li:nth-child(2)>label {
-        background: rgba(0, 0, 0, 0.08);
-    }
-}
-
-.tabs input[name="tab-control"]:nth-of-type(2):checked~.slider {
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-}
-
-.tabs input[name="tab-control"]:nth-of-type(2):checked~.content>section:nth-child(2) {
-    display: block;
-}
-
-.tabs input[name="tab-control"]:nth-of-type(3):checked~ul>li:nth-child(3)>label {
-    cursor: default;
-    color: #191919;
-}
-
-.tabs input[name="tab-control"]:nth-of-type(3):checked~ul>li:nth-child(3)>label svg {
-    fill: #191919;
-}
-
-@media (max-width: 600px) {
-    .tabs input[name="tab-control"]:nth-of-type(3):checked~ul>li:nth-child(3)>label {
-        background: rgba(0, 0, 0, 0.08);
-    }
-}
-
-.tabs input[name="tab-control"]:nth-of-type(3):checked~.slider {
-    -webkit-transform: translateX(200%);
-    transform: translateX(200%);
-}
-
-.tabs input[name="tab-control"]:nth-of-type(3):checked~.content>section:nth-child(3) {
-    display: block;
-}
-
-.tabs input[name="tab-control"]:nth-of-type(4):checked~ul>li:nth-child(4)>label {
-    cursor: default;
-    color: #191919;
-}
-
-.tabs input[name="tab-control"]:nth-of-type(4):checked~ul>li:nth-child(4)>label svg {
-    fill: #191919;
-}
-
-@media (max-width: 600px) {
-    .tabs input[name="tab-control"]:nth-of-type(4):checked~ul>li:nth-child(4)>label {
-        background: rgba(0, 0, 0, 0.08);
-    }
-}
-
-.tabs input[name="tab-control"]:nth-of-type(4):checked~.slider {
-    -webkit-transform: translateX(300%);
-    transform: translateX(300%);
-}
-
-.tabs input[name="tab-control"]:nth-of-type(4):checked~.content>section:nth-child(4) {
-    display: block;
-}
-
-@-webkit-keyframes content {
-    from {
-        opacity: 0;
-        -webkit-transform: translateY(5%);
-        transform: translateY(5%);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-        transform: translateY(0%);
-    }
-}
-
-@keyframes content {
-    from {
-        opacity: 0;
-        -webkit-transform: translateY(5%);
-        transform: translateY(5%);
-    }
-
-    to {
-        opacity: 1;
-        -webkit-transform: translateY(0%);
-        transform: translateY(0%);
-    }
-}
-
-@media (max-width: 1000px) {
-    .tabs ul li label {
-        white-space: initial;
-    }
-
-    .tabs ul li label br {
-        display: initial;
-    }
-
-    .tabs ul li label svg {
-        height: 1.5em;
-    }
-}
-
-@media (max-width: 600px) {
-    .tabs ul li label {
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    .tabs ul li label span {
-        display: none;
-    }
-
-    .tabs .slider {
-        display: none;
-    }
-
-    .tabs .content {
-        margin-top: 20px;
-    }
-
-    .tabs .content section h2 {
-        display: block;
-    }
-}
-
 .table-slider {
     text-decoration: none;
     color: #191919;
@@ -552,15 +401,9 @@ body {
     border-bottom: 1px solid #191919;
 }
 
-.table-slider .kek {
-    border-bottom: none;
-}
 
 .table-3 {
     margin-left: 50px;
-}
-
-.contact {
 }
 
 .contact h2 {
